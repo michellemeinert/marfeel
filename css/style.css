@@ -4,11 +4,21 @@ html {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  --blue: blue;
+  font-family: Montserrat, sans-serif;
+  --darkblue: darkblue;
+  --lightblue: lightblue;
+  --darkgreen: darkgreen;
+  --lightgreen: lightgreen;
+  --lightyellow: #ffeb3b;
+  --orange: orange;
   --grey: grey;
   margin: 0;
   padding: 0;
+  height: 100%;
+}
+
+.main {
+  height: 100%;
 }
 
 .is-wrapper {
@@ -24,22 +34,55 @@ body {
   flex-direction: row;
 }
 
+.is-space-between {
+  justify-content: space-between;
+}
+
 .is-centered-x {
-  align-content: center;
+  align-items: center;
 }
 .is-centered-y {
   justify-content: center;
 }
 
 .is-circle {
-  height: 200px;
-  width: 200px;
-  border: 10px solid var(--blue);
+  height: 160px;
+  width: 160px;
+  border: 8px solid;
   border-radius: 50%;
 }
 
-.has-text-align-center {
+.is-text-align-center {
   text-align: center;
+}
+
+.is-font-size-26 {
+  font-size: 26px;
+}
+.is-font-size-18 {
+  font-size: 18px;
+}
+.is-font-size-14 {
+  font-size: 14px;
+}
+
+.is-font-color-grey {
+  color: var(--grey);
+}
+
+.is-padding-4 {
+  padding: 4px;
+}
+.is-padding-14 {
+  padding: 14px;
+}
+
+.is-margin-right-4 {
+  margin-right: 4px;
+}
+
+.is-width-300 {
+  width: 300px;
 }
 
 .is-line {
