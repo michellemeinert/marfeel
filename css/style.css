@@ -1,0 +1,49 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  --blue: blue;
+  --grey: grey;
+  margin: 0;
+  padding: 0;
+}
+
+.is-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.is-column {
+  flex-direction: column;
+}
+
+.is-row {
+  flex-direction: row;
+}
+
+.is-centered-x {
+  align-content: center;
+}
+.is-centered-y {
+  justify-content: center;
+}
+
+.is-circle {
+  height: 200px;
+  width: 200px;
+  border: 10px solid var(--blue);
+  border-radius: 50%;
+}
+
+.has-text-align-center {
+  text-align: center;
+}
+
+.is-line {
+  height: 1px;
+  color: var(--grey);
+  width: 300px;
+}
