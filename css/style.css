@@ -5,13 +5,6 @@ html {
 
 body {
   font-family: Montserrat, sans-serif;
-  --darkblue: darkblue;
-  --lightblue: lightblue;
-  --darkgreen: darkgreen;
-  --lightgreen: lightgreen;
-  --lightyellow: #ffeb3b;
-  --orange: orange;
-  --grey: grey;
   margin: 0;
   padding: 0;
   height: 100%;
@@ -89,4 +82,10 @@ body {
   height: 1px;
   color: var(--grey);
   width: 300px;
+}
+
+@media (min-width: 801px) {
+  .is-column-mobile {
+    flex-direction: column !important;
+  }
 }
