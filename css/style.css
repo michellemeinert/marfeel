@@ -34,15 +34,9 @@ body {
 .is-centered-x {
   align-items: center;
 }
+
 .is-centered-y {
   justify-content: center;
-}
-
-.is-circle {
-  height: 160px;
-  width: 160px;
-  border: 8px solid;
-  border-radius: 50%;
 }
 
 .is-text-align-center {
@@ -52,9 +46,11 @@ body {
 .is-font-size-26 {
   font-size: 26px;
 }
+
 .is-font-size-18 {
   font-size: 18px;
 }
+
 .is-font-size-14 {
   font-size: 14px;
 }
@@ -66,6 +62,7 @@ body {
 .is-padding-4 {
   padding: 4px;
 }
+
 .is-padding-14 {
   padding: 14px;
 }
