@@ -60,7 +60,7 @@ body {
 }
 
 .is-font-color-grey {
-  color: var(--grey);
+  color: grey;
 }
 
 .is-padding-4 {

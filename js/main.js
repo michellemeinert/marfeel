@@ -125,7 +125,9 @@ let main = () => {
       ctx.font = "20px Arial";
       ctx.textAlign = "center";
       ctx.textBaseline = "middle";
+      ctx.fillStyle = "grey";
       ctx.fillText(item.headline, x, y - 10);
+      ctx.fillStyle = "black";
       ctx.fillText(
         formatNumbers(item.headlineNumber) + (item.isEur ? " €" : ""),
         x,
